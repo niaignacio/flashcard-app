@@ -18,6 +18,14 @@
 
   <main>
 
+    <div id="homeControls" class="homeControls">
+      <label for="modeSelect">Study mode:</label>
+      <select id="modeSelect">
+        <option value="flashcard">Flashcard</option>
+        <option value="multiple">Multiple Choice</option>
+      </select>
+    </div>
+
     <section id="setList"></section>
 
     <section id="studyView" class="hidden">
@@ -26,11 +34,28 @@
         ← Back
       </button>
 
-      <h2 id="setTitle"></h2>
+      <div class="titleRow">
+        <h2 id="setTitle"></h2>
+        <button id="shuffleBtn" class="shuffle-btn">Shuffle</button>
+      </div>
 
       <div id="flashcard">
         <div id="cardText"></div>
       </div>
+
+      <div id="flashControls" class="flash-controls">
+        <button id="correctBtn" class="flash-btn check">✓</button>
+        <button id="wrongBtn" class="flash-btn wrong">✕</button>
+      </div>
+
+      <div id="progress" class="progress">
+        <div id="progressText">Correct: 0%</div>
+        <div class="progressBar">
+          <div id="progressFill"></div>
+        </div>
+      </div>
+
+      <div id="choices" class="choices"></div>
 
       <div class="controls">
 

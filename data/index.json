@@ -3,7 +3,8 @@
     {
       "id": "system-design",
       "title": "System Design",
-      "description": "A collection of questions related to system design, including architecture, scalability, and performance."
+      "description": "A collection of questions related to system design, including architecture, scalability, and performance.",
+      "cardCount": 62
     }
     
   ]
