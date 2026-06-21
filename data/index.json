@@ -5,6 +5,12 @@
       "title": "System Design",
       "description": "A collection of questions related to system design, including architecture, scalability, and performance.",
       "cardCount": 62
+    },
+    {
+      "id": "dsa",
+      "title": "DSA Fundamentals",
+      "description": "Core data structures, algorithms, and interview patterns.",
+      "cardCount": 72
     }
     
   ]

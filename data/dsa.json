@@ -1,0 +1,295 @@
+{
+  "id": "dsa",
+  "title": "DSA Fundamentals",
+  "description": "Core data structures, algorithms, and interview patterns.",
+  "cards": [
+    {
+      "front": "What is Big O notation?",
+      "back": "A way to describe the upper bound growth rate of an algorithm as input size increases."
+    },
+    {
+      "front": "What is O(1)?",
+      "back": "Constant time complexity. Runtime does not depend on input size."
+    },
+    {
+      "front": "What is O(log n)?",
+      "back": "Logarithmic complexity. Input size is repeatedly reduced, such as in binary search."
+    },
+    {
+      "front": "What is O(n)?",
+      "back": "Linear complexity. Runtime grows proportionally with input size."
+    },
+    {
+      "front": "What is O(n log n)?",
+      "back": "Typical complexity for efficient sorting algorithms such as Merge Sort and Heap Sort."
+    },
+    {
+      "front": "What is O(n²)?",
+      "back": "Quadratic complexity. Common in nested-loop algorithms."
+    },
+    {
+      "front": "When should a hash map be considered?",
+      "back": "When fast O(1) average lookup, insertion, or frequency counting is needed."
+    },
+    {
+      "front": "What is a hash collision?",
+      "back": "When multiple keys map to the same hash bucket."
+    },
+    {
+      "front": "What is the primary advantage of a hash set?",
+      "back": "Fast membership testing."
+    },
+    {
+      "front": "When is the Two Pointers pattern useful?",
+      "back": "When working with sorted arrays, pairs, windows, or opposite-end traversal."
+    },
+    {
+      "front": "What is the Sliding Window pattern?",
+      "back": "Maintaining a dynamic range of elements while expanding and shrinking boundaries."
+    },
+    {
+      "front": "When is Sliding Window preferable to nested loops?",
+      "back": "When processing contiguous subarrays or substrings efficiently."
+    },
+    {
+      "front": "What problem type is Binary Search designed for?",
+      "back": "Searching within a sorted search space."
+    },
+    {
+      "front": "What condition must hold for Binary Search?",
+      "back": "The search space must be monotonic or sorted."
+    },
+    {
+      "front": "What is the time complexity of Binary Search?",
+      "back": "O(log n)."
+    },
+    {
+      "front": "What is a linked list?",
+      "back": "A sequence of nodes where each node points to the next node."
+    },
+    {
+      "front": "Why are linked lists useful?",
+      "back": "Efficient insertion and deletion when node references are known."
+    },
+    {
+      "front": "What is the main disadvantage of linked lists?",
+      "back": "No O(1) random access."
+    },
+    {
+      "front": "What is Floyd's Cycle Detection algorithm?",
+      "back": "A slow and fast pointer technique used to detect cycles in linked lists."
+    },
+    {
+      "front": "What is a stack?",
+      "back": "A Last-In-First-Out data structure."
+    },
+    {
+      "front": "What operations are performed on a stack?",
+      "back": "Push, pop, peek, and isEmpty."
+    },
+    {
+      "front": "When are monotonic stacks useful?",
+      "back": "When finding next greater, next smaller, or maintaining ordered elements."
+    },
+    {
+      "front": "What is a queue?",
+      "back": "A First-In-First-Out data structure."
+    },
+    {
+      "front": "What is a deque?",
+      "back": "A double-ended queue supporting insertion and removal from both ends."
+    },
+    {
+      "front": "What is a tree?",
+      "back": "A hierarchical data structure consisting of nodes connected by edges."
+    },
+    {
+      "front": "What is the root node?",
+      "back": "The topmost node of a tree."
+    },
+    {
+      "front": "What is a leaf node?",
+      "back": "A node with no children."
+    },
+    {
+      "front": "What is tree depth?",
+      "back": "The number of edges from the root to a node."
+    },
+    {
+      "front": "What is tree height?",
+      "back": "The longest path from a node to a leaf."
+    },
+    {
+      "front": "What is a Binary Tree?",
+      "back": "A tree where each node has at most two children."
+    },
+    {
+      "front": "What is a Binary Search Tree?",
+      "back": "A binary tree where left values are smaller and right values are larger."
+    },
+    {
+      "front": "What is an inorder traversal?",
+      "back": "Left subtree, node, right subtree."
+    },
+    {
+      "front": "What is a preorder traversal?",
+      "back": "Node, left subtree, right subtree."
+    },
+    {
+      "front": "What is a postorder traversal?",
+      "back": "Left subtree, right subtree, node."
+    },
+    {
+      "front": "What is DFS?",
+      "back": "Depth-First Search. Explore as far as possible before backtracking."
+    },
+    {
+      "front": "What is BFS?",
+      "back": "Breadth-First Search. Explore level by level."
+    },
+    {
+      "front": "When is BFS preferred over DFS?",
+      "back": "When shortest path in an unweighted graph is required."
+    },
+    {
+      "front": "What is a heap?",
+      "back": "A complete binary tree that satisfies the heap property."
+    },
+    {
+      "front": "What is a min-heap?",
+      "back": "The smallest element is always at the root."
+    },
+    {
+      "front": "What is a max-heap?",
+      "back": "The largest element is always at the root."
+    },
+    {
+      "front": "What is the primary use of heaps?",
+      "back": "Efficient access to minimum or maximum elements."
+    },
+    {
+      "front": "What is a priority queue?",
+      "back": "A queue where elements are processed based on priority."
+    },
+    {
+      "front": "What is a graph?",
+      "back": "A collection of vertices connected by edges."
+    },
+    {
+      "front": "What is an adjacency list?",
+      "back": "A graph representation storing neighbors for each vertex."
+    },
+    {
+      "front": "What is an adjacency matrix?",
+      "back": "A graph representation using a matrix of edge relationships."
+    },
+    {
+      "front": "What is a connected graph?",
+      "back": "A graph where every node is reachable from every other node."
+    },
+    {
+      "front": "What is a cycle in a graph?",
+      "back": "A path that starts and ends at the same node."
+    },
+    {
+      "front": "What is topological sorting?",
+      "back": "A linear ordering of nodes in a directed acyclic graph."
+    },
+    {
+      "front": "What is Union Find?",
+      "back": "A data structure for tracking connected components."
+    },
+    {
+      "front": "What are the two key Union Find operations?",
+      "back": "Find and Union."
+    },
+    {
+      "front": "What is path compression?",
+      "back": "An optimization that flattens Union Find trees."
+    },
+    {
+      "front": "What is Dynamic Programming?",
+      "back": "Solving problems by storing and reusing solutions to overlapping subproblems."
+    },
+    {
+      "front": "What are the two requirements for Dynamic Programming?",
+      "back": "Overlapping subproblems and optimal substructure."
+    },
+    {
+      "front": "What is memoization?",
+      "back": "Top-down DP using caching."
+    },
+    {
+      "front": "What is tabulation?",
+      "back": "Bottom-up DP using iterative computation."
+    },
+    {
+      "front": "What is the 0/1 Knapsack pattern?",
+      "back": "Choosing items where each item can be taken at most once."
+    },
+    {
+      "front": "What is the Longest Common Subsequence problem?",
+      "back": "Finding the longest sequence appearing in order within two strings."
+    },
+    {
+      "front": "What is Backtracking?",
+      "back": "Exploring solutions recursively and undoing choices when necessary."
+    },
+    {
+      "front": "What types of problems commonly use Backtracking?",
+      "back": "Permutations, combinations, subsets, and constraint satisfaction."
+    },
+    {
+      "front": "What is a Trie?",
+      "back": "A tree structure optimized for prefix-based string operations."
+    },
+    {
+      "front": "When is a Trie useful?",
+      "back": "Autocomplete, dictionaries, prefix matching, and word search."
+    },
+    {
+      "front": "What is Greedy Algorithm design?",
+      "back": "Making the locally optimal choice at each step."
+    },
+    {
+      "front": "When are greedy algorithms valid?",
+      "back": "When local optimal choices lead to a global optimum."
+    },
+    {
+      "front": "What is Interval Scheduling?",
+      "back": "Selecting non-overlapping intervals using a greedy strategy."
+    },
+    {
+      "front": "What is Kadane's Algorithm?",
+      "back": "An O(n) algorithm for finding the maximum subarray sum."
+    },
+    {
+      "front": "What is Dijkstra's Algorithm?",
+      "back": "An algorithm for shortest paths in weighted graphs with nonnegative weights."
+    },
+    {
+      "front": "What data structure is commonly used with Dijkstra?",
+      "back": "A min-heap priority queue."
+    },
+    {
+      "front": "What is the difference between BFS and Dijkstra?",
+      "back": "BFS works for unweighted graphs, Dijkstra handles weighted graphs."
+    },
+    {
+      "front": "What is the Fast and Slow Pointer pattern?",
+      "back": "Two pointers moving at different speeds to detect cycles or middle elements."
+    },
+    {
+      "front": "What is the Merge Intervals pattern?",
+      "back": "Sort intervals and combine overlapping ranges."
+    },
+    {
+      "front": "What is the Top K Elements pattern?",
+      "back": "Using heaps to efficiently track the k largest or smallest elements."
+    },
+    {
+      "front": "What is the main goal of technical interview preparation?",
+      "back": "Recognizing patterns and applying the appropriate data structure or algorithm efficiently."
+    }
+  ]
+}
