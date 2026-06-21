@@ -1,0 +1,255 @@
+{
+  "id": "system-design",
+  "title": "System Design Primer",
+  "description": "Core concepts from the System Design Primer and its referenced resources",
+  "cards": [
+    {
+      "front": "What is scalability?",
+      "back": "The ability of a system to handle increasing load by adding resources while maintaining acceptable performance."
+    },
+    {
+      "front": "What is the difference between a performance problem and a scalability problem?",
+      "back": "Performance problems affect a single user under normal load; scalability problems appear as load increases."
+    },
+    {
+      "front": "What is latency?",
+      "back": "The time required to complete a request or operation."
+    },
+    {
+      "front": "What is throughput?",
+      "back": "The number of requests or operations completed per unit time."
+    },
+    {
+      "front": "What is vertical scaling?",
+      "back": "Adding more CPU, memory, or storage to a single machine."
+    },
+    {
+      "front": "What is horizontal scaling?",
+      "back": "Adding more machines and distributing load across them."
+    },
+    {
+      "front": "What is a load balancer?",
+      "back": "A component that distributes incoming requests across multiple servers."
+    },
+    {
+      "front": "What are the benefits of load balancing?",
+      "back": "Improved availability, fault tolerance, scalability, and resource utilization."
+    },
+    {
+      "front": "What is a reverse proxy?",
+      "back": "A server that sits in front of backend servers and forwards client requests."
+    },
+    {
+      "front": "What is a CDN?",
+      "back": "A Content Delivery Network that caches content closer to users to reduce latency."
+    },
+    {
+      "front": "Why are CDNs useful?",
+      "back": "They reduce latency, decrease origin server load, and improve availability."
+    },
+    {
+      "front": "What is caching?",
+      "back": "Storing frequently accessed data in faster storage to reduce retrieval time."
+    },
+    {
+      "front": "What is a cache hit?",
+      "back": "When requested data is found in the cache."
+    },
+    {
+      "front": "What is a cache miss?",
+      "back": "When requested data is not found in the cache and must be fetched from a slower source."
+    },
+    {
+      "front": "What is cache eviction?",
+      "back": "Removing entries from a cache when space is needed."
+    },
+    {
+      "front": "What is the LRU cache policy?",
+      "back": "Least Recently Used; evicts the item that has not been accessed for the longest time."
+    },
+    {
+      "front": "What is write-through caching?",
+      "back": "Writes are sent to both the cache and the database simultaneously."
+    },
+    {
+      "front": "What is write-back caching?",
+      "back": "Writes are stored in cache first and persisted later."
+    },
+    {
+      "front": "What is database replication?",
+      "back": "Maintaining copies of data across multiple servers."
+    },
+    {
+      "front": "Why use replication?",
+      "back": "To improve availability, fault tolerance, and read scalability."
+    },
+    {
+      "front": "What is a primary-replica architecture?",
+      "back": "Writes go to the primary database while replicas serve reads."
+    },
+    {
+      "front": "What is database sharding?",
+      "back": "Splitting data across multiple databases using a partitioning strategy."
+    },
+    {
+      "front": "Why use sharding?",
+      "back": "To increase storage capacity and distribute load."
+    },
+    {
+      "front": "What is consistent hashing?",
+      "back": "A technique that minimizes data movement when nodes are added or removed."
+    },
+    {
+      "front": "What is partitioning?",
+      "back": "Dividing data into subsets that can be stored and managed independently."
+    },
+    {
+      "front": "What is denormalization?",
+      "back": "Intentionally duplicating data to improve read performance."
+    },
+    {
+      "front": "What is normalization?",
+      "back": "Organizing relational data to reduce redundancy."
+    },
+    {
+      "front": "What is eventual consistency?",
+      "back": "Replicas converge to the same state over time if no new updates occur."
+    },
+    {
+      "front": "What is strong consistency?",
+      "back": "Every read returns the most recent write."
+    },
+    {
+      "front": "What is availability in distributed systems?",
+      "back": "Every request receives a response, even if it may not contain the latest data."
+    },
+    {
+      "front": "What is consistency in CAP theorem?",
+      "back": "All nodes see the same data at the same time."
+    },
+    {
+      "front": "What is partition tolerance?",
+      "back": "The system continues operating despite network failures between nodes."
+    },
+    {
+      "front": "What does CAP theorem state?",
+      "back": "A distributed system can only guarantee two of Consistency, Availability, and Partition Tolerance simultaneously."
+    },
+    {
+      "front": "What is a CP system?",
+      "back": "A system that prioritizes Consistency and Partition Tolerance over Availability."
+    },
+    {
+      "front": "What is an AP system?",
+      "back": "A system that prioritizes Availability and Partition Tolerance over immediate Consistency."
+    },
+    {
+      "front": "What is a message queue?",
+      "back": "A system that enables asynchronous communication between services."
+    },
+    {
+      "front": "Why use message queues?",
+      "back": "To decouple services, smooth traffic spikes, and improve resilience."
+    },
+    {
+      "front": "What is pub-sub?",
+      "back": "Publish-subscribe messaging where producers send events and subscribers receive them."
+    },
+    {
+      "front": "What is asynchronous processing?",
+      "back": "Executing work outside the main request-response cycle."
+    },
+    {
+      "front": "What is a distributed system?",
+      "back": "A system whose components run on multiple networked machines and coordinate to achieve a goal."
+    },
+    {
+      "front": "What is fault tolerance?",
+      "back": "The ability of a system to continue operating despite failures."
+    },
+    {
+      "front": "What is redundancy?",
+      "back": "Having duplicate components to eliminate single points of failure."
+    },
+    {
+      "front": "What is a single point of failure?",
+      "back": "A component whose failure can bring down the entire system."
+    },
+    {
+      "front": "What is a monolith?",
+      "back": "An application where all functionality is deployed as a single unit."
+    },
+    {
+      "front": "What is a microservice?",
+      "back": "An independently deployable service focused on a specific business capability."
+    },
+    {
+      "front": "What are benefits of microservices?",
+      "back": "Independent scaling, deployment flexibility, and team autonomy."
+    },
+    {
+      "front": "What are challenges of microservices?",
+      "back": "Operational complexity, distributed transactions, and network failures."
+    },
+    {
+      "front": "What is an API gateway?",
+      "back": "A central entry point that routes requests to backend services."
+    },
+    {
+      "front": "What is rate limiting?",
+      "back": "Restricting how many requests a client can make within a time period."
+    },
+    {
+      "front": "Why is rate limiting important?",
+      "back": "It protects systems from abuse, overload, and denial-of-service attacks."
+    },
+    {
+      "front": "What is idempotency?",
+      "back": "Performing the same operation multiple times produces the same result."
+    },
+    {
+      "front": "What is a health check?",
+      "back": "A mechanism for determining whether a service instance is functioning correctly."
+    },
+    {
+      "front": "What is a service-level objective (SLO)?",
+      "back": "A target level of reliability or performance for a service."
+    },
+    {
+      "front": "What is a service-level agreement (SLA)?",
+      "back": "A contractual commitment regarding service reliability or performance."
+    },
+    {
+      "front": "What is a distributed cache?",
+      "back": "A cache shared across multiple servers."
+    },
+    {
+      "front": "What is a bloom filter?",
+      "back": "A probabilistic data structure used to test whether an element may exist in a set."
+    },
+    {
+      "front": "What is a quorum?",
+      "back": "The minimum number of nodes required to agree on an operation."
+    },
+    {
+      "front": "What is eventual consistency commonly used for?",
+      "back": "Large-scale systems where availability and partition tolerance are prioritized."
+    },
+    {
+      "front": "What is a URL shortener interview problem testing?",
+      "back": "Knowledge of key generation, databases, caching, scaling, and availability."
+    },
+    {
+      "front": "What is the main challenge in designing Twitter timelines?",
+      "back": "Efficiently generating and delivering feeds for millions of users."
+    },
+    {
+      "front": "What is the main challenge in designing a web crawler?",
+      "back": "Scalably discovering, fetching, and indexing web content."
+    },
+    {
+      "front": "What is the purpose of system design interviews?",
+      "back": "To evaluate a candidate's ability to reason about scalability, trade-offs, reliability, and architecture."
+    }
+  ]
+}

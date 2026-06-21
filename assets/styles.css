@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f3f4f6;
+}
+
+header {
+  background: #2563eb;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+#setList {
+  padding: 1rem;
+}
+
+.set-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,.1);
+}
+
+.hidden {
+  display: none;
+}
+
+#studyView {
+  padding: 1rem;
+}
+
+#flashcard {
+  background: white;
+  border-radius: 16px;
+  min-height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,.12);
+  cursor: pointer;
+}
+
+#cardText {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  padding: 10px 16px;
+}
