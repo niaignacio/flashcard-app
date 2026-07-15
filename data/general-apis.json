@@ -1,0 +1,91 @@
+{
+    "id": "general-api",
+    "title": "APIs",
+    "description": "",
+    "cards": [
+        {
+            "front": "What does API stand for?",
+            "back": "Application Programming Interface"
+        },
+        {
+            "front": "What is an API?",
+            "back": "A set of rules, definitions, and protocols that allows different software applications to communicate and exchange data with each other."
+        },
+        {
+            "front": "What is an API Gateway?",
+            "back": "An infrastructure layer and traffic manager that sit between a client and a collection of backend services. It acts as a single entry point that accepts all incoming API calls, routes them to the correct microservice, and returns a unified response to the user."
+        },
+        {
+            "front": "What is does 'REST' stand for in 'REST API'?",
+            "back": "Representational State Transfer"
+        },
+        {
+            "front": "What does a REST API status code that begins with a 2 indicate?",
+            "back": "Success"
+        },
+        {
+            "front": "What does a successful API status code start with?",
+            "back":"2"
+        },
+        {
+            "front": "What does a REST API status code that begins with a 4 indicate?",
+            "back": "Client Error"
+        },
+        {
+            "front": "What does a Client Error status code start with?",
+            "back": "4"
+        },
+        {
+            "front": "What does a REST API status code that begins with a 5 indicate?",
+            "back": "Server Error"
+        },
+        {
+            "front": "What is 'statelessness' in REST APIs?",
+            "back": "The server doesn't retain client session state. All information for the request needs to be included in the payload."
+        },
+        {
+            "front": "What are the 5 actions that REST APIs can perform?",
+            "back": "GET, POST, PUT, PATCH, DELETE"
+        },
+        {
+            "front": "What does a GET request do?",
+            "back": "Retrieves data from the server"
+        },
+        {
+            "front": "What does a POST request do?",
+            "back": "Creates a new resource on the server"
+        },
+        {
+            "front": "What does a PUT request do?",
+            "back": "Replaces an entire existing sequence"
+        },
+        {
+            "front": "What does a PATCH request do?",
+            "back": "Performs a partial update to an existing resource"
+        },
+        {
+            "front": "What does a DELETE request do?",
+            "back": "Removes a resource from the server"
+        },
+        {
+            "front": "What situations do you use a REST API for?",
+            "back": "General web services, CRUD apps, mobile backends"
+        },
+        {
+            "front": "What situations do you use a GraphQL API?",
+            "back": "Complex data graphs, avoiding over-fetching data"
+        },
+        {
+            "front": "What situations do you use a SOAP API?",
+            "back": "Enterprise legacy apps, high security banking"
+        },
+        {
+            "front": "What situations do you use a gRPC/RPC API?",
+            "back": "Internal microservices, high-performance streaming"
+        },
+        {
+            "front": "What situations do you use WebSockets APIs?",
+            "back": "Real-time chats, live dashboards, gaming"
+        }
+    ]
+}
