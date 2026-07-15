@@ -11,6 +11,12 @@
       "title": "DSA Fundamentals",
       "description": "Core data structures, algorithms, and interview patterns.",
       "cardCount": 72
+    },
+    {
+      "id": "general-apis",
+      "title": "APIs",
+      "description": "A collection of questions related to APIs, including RESTful APIs, API design, and best practices.",
+      "cardCount": 21
     }
     
   ]
